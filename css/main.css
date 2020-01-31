@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+}
+
+ a:link { color: black; text-decoration: none;}
+ a:visited { color: black; text-decoration: none;}
+ a:hover { color: black; text-decoration: underline;}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+header {
+    width: 2000px;
+    margin: auto;
+    text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.topbar-box {
+    width: 1200px;
+    margin: auto;
+    background: white;
+    margin-bottom: 50px;
+}
+
+.topbar-box > li {
+    color: black;
+    margin: 5px;
+    float: right;
+    background-color: white;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: underline;
+    list-style: none;
+}
+
+.header-headline {
+    width: 1200px;
+    font-size: 40px;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.header-box {
+    width: 1200px;
+    margin: auto;
+    background: white;
+    margin-bottom: 10px;
+    text-align: center;
+    list-style: none;
+}
+
+.header-box > li {
+    color: black;
+    background: white;
+    font-size: 20px;
+    margin: 5px;
+    text-align: center;
+    float: left;
+}
+
+.header-box > li:nth-child(n+6) {
+    color: lightslategray;
+    background: white;
+    margin: 5px;
+    text-align: center;
+    float: left;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.main-banner {
+    width: 2000px;
+    margin: auto;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+main {
+    width: 2000px;
+    margin: auto;
+    text-align: center;
+}
+
+.main-box {
+    width: 1200px;
+    margin: auto;
+    padding: 4px;
+    text-align: center;
+}
+
+.body-img {
+    margin: auto;
+    text-align: center;
+    float: left;
+    width: 25%;
+    list-style: none;
+}
+
+.body-img1 {
+    margin: auto;
+    text-align: center;
+    float: left;
+    width: 25%;
+    list-style: none;
+    padding: 35px;
+}
+
+.navsub {
+    width: 2000px;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.submain-box1 {
+    margin: auto;
+    background: white;
+    text-align: center;
+    list-style: none;
+    float: right;
+    position: relative;
+    left: -50%;
+}
+
+.submain-box1 li {
+    color: black;
+    background: white;
+    font-size: 20px;
+    margin: 5px;
+    text-align: center;
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+hr {
+    width: 600px;
+    border: 1px solid lightgray;
+}
+
+.submain-box {
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.subbody-img {
+    margin: auto;
+    text-align: center;
+    float: left;
+    width: 25%;
+    list-style: none;
+}
+
+.subbody-img1 {
+    margin: auto;
+    text-align: center;
+    float: left;
+    width: 25%;
+    list-style: none;
+    padding:35px;
+}
+
+.subbody-img2 {
+    margin: auto;
+    text-align: center;
+    float: left;
+    width: 33.3%;
+    list-style: none;
+}
+
+.subbody-img3 {
+    margin: auto;
+    text-align: center;
+    float: left;
+    width: 33.3%;
+    list-style: none;
+    padding:35px;
+}
+
+.subbody-img4 {
+    margin: auto;
+    text-align: center;
+    float: left;
+    width: 50%;
+    list-style: none;
+}
+
+.subbody-img5 {
+    margin: auto;
+    text-align: center;
+    float: left;
+    width: 50%;
+    list-style: none;
+    padding:35px;
+}
+.blankbox {
+    margin: auto;
+    text-align: center;
+    height: 100px;
+}
+
+.footer-box {
+    width: 1200px;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.footer-box > img {
+    margin: 50px auto;
+    padding: 4px;
+    text-align: center;
+}
+
+footer {
+    width: 2000px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-text {
+    margin: auto;
+    text-align: left;
+    float: left;
+    width: 20%;
+    list-style: none;
+}
+
+.footer-line {
+    width: 2000px;
+    margin: auto;
+    text-align: center;
+    background-color: aliceblue;
+    border-bottom: solid 1px lightgray;
+}
